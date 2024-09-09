@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      padding: 0px;
+      margin: 0px auto;
+    }
+    .container {
+      height: 860px;
+      width: 1089px;
+      background-color: rgb(239, 236, 233);
+    }
+    .header {
+      height: 160px;
+      width: 1000px;
+      background-image: url(./background.png);
+      align-items: center;
+      display: flex;
+    }
+    .content-header {
+      float: left;
+      gap: 0;
+      color: #ffffff;
+      font-size: 25px;
+    }
+
+    .header img {
+      height: 140px;
+      width: 150px;
+      float: left;
+    }
+    .nav {
+      height: 40px;
+      width: 1000px;
+      background-color: #666666;
+    }
+    .nav ul {
+      list-style: none;
+    }
+    .nav ul li {
+      display: inline;
+      margin-left: 20px;
+    }
+    .nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+    }
+    .section {
+      height: 600px;
+      width: 700px;
+      background-color: rgb(239, 236, 233);
+      float: left;
+      margin-top: 20px;
+      margin-left: 44.5px;
+    }
+    .section-tren {
+      height: 280px;
+      width: 640px;
+      background-color: rgb(230, 212, 198);
+      float: left;
+      margin-top: 20px;
+      margin-left: 20px;
+      display: flex;
+      gap: 10px;
+    }
+    .content-tren {
+      margin-top: 50px;
+    }
+    .anh2 {
+      border: 1px solid white;
+      padding: 10px;
+    }
+    .section-tren .content-tren h3 {
+      color: red;
+    }
+    .section-duoi {
+      height: 260px;
+      width: 640px;
+      background-color: rgb(230, 212, 198);
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+    .content-section {
+      margin-top: 50px;
+    }
+    .section-duoi .content-section h3 {
+      color: red;
+    }
+    .anh {
+      border: 1px solid white;
+      padding: 10px;
+    }
+    .aside {
+      height: 600px;
+      width: 300px;
+      background-color: rgb(210, 212, 212) t;
+      float: left;
+      margin-top: 20px;
+      margin-right: 44.5px;
+    }
+    .aside-tren {
+      height: 280px;
+      width: 240px;
+      background-color: rgb(230, 212, 198);
+      float: left;
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+    .aside-content {
+      padding: 20px;
+      color: red;
+    }
+    .aside-content li {
+      list-style-type: none;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border-bottom: 1px solid red;
+      color: red;
+    }
+    .aside-duoi {
+      height: 260px;
+      width: 240px;
+      background-color: rgb(230, 212, 198);
+      float: left;
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+    .aside-content-duoi {
+      padding: 20px;
+      color: red;
+    }
+    .aside-content-duoi li {
+      list-style-type: none;
+      color: black;
+    }
+    .footer {
+      height: 40px;
+      width: 1000px;
+      background-image: url(./background.png);
+      float: left;
+      margin-left: 44.5px;
+      text-align: center;
+      line-height: 40px;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="./logo.png" alt="" />
+        <div class="content-header">
+          <h1>Yoko's Kitchen</h1>
+          <h3>Japanese Cooking Classes</h3>
+        </div>
+      </header>
+      <div class="nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Classes</a></li>
+          <li><a href="#">Catering</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="section">
+        <div class="section-tren">
+          <div class="anh2">
+            <img src="./teriyaki.jpg" alt="" />
+            <p>Teriyaki Sauce</p>
+          </div>
+          <div class="content-tren">
+            <h2>Japanese Vegetarian</h2>
+            <h3>Five week course in London</h3>
+            <p>
+              A five week introduction to traditional Japanese vegetarian meals,
+              teaching you a selection of rice and noodle dishes.
+            </p>
+          </div>
+        </div>
+        <div class="section-duoi">
+          <div class="anh">
+            <img src="./teriyaki.jpg" alt="" />
+            <p>Teriyaki Sauce</p>
+          </div>
+          <div class="content-section">
+            <h2>Sauces Masterclass</h2>
+            <h3>One day workshop</h3>
+            <p>
+              An intensive one-day course looking at how to create the most
+              delicious sauces for use in a range of Japanese cookery.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="aside">
+        <div class="aside-tren">
+          <div class="aside-content">
+            <h2>Popular Recipies</h2>
+            <ul>
+              <li>Yakitori (grilled chicken)</li>
+              <li>Tsukune (minced chicken patties)</li>
+              <li>Okonomiyaki (savory pancakes)</li>
+              <li>Mizutaki (chicken stew)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="aside-duoi">
+          <div class="aside-content-duoi">
+            <h2>Contact</h2>
+            <ul>
+              <li>Yoko's Kitchen</li>
+              <li>27 Redchurch Street</li>
+              <li>Shoreditch</li>
+              <li>London E2 7DP</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <p>@2011 Yoko's Kitchen</p>
+      </div>
+    </div>
+  </body>
+</html>
