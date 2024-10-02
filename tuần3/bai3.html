@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bai3</title>
+  </head>
+  <style>
+    * {
+      padding: 0;
+      margin: 0 auto;
+      box-sizing: border-box;
+    }
+
+    .wrapper {
+      width: 960px;
+
+      background-color: rgb(255, 255, 255);
+      margin-top: 20px;
+    }
+    .header {
+      background-color: rgb(197, 90, 15);
+      text-shadow: -5px -5px 5px #aec3af;
+      padding: 10px;
+      color: rgb(40, 142, 70);
+      border-bottom: black solid 1px;
+    }
+    .nav {
+      position: absolute;
+    }
+    .nav li {
+      list-style-type: none;
+      height: 50px;
+      line-height: 50px;
+      padding-left: 10px;
+      padding-right: 10px;
+      float: left;
+      font-size: 20px;
+    }
+    .nav li a {
+      text-decoration: none;
+      color: orangered;
+    }
+    .hinh {
+      margin-top: 50px;
+      border-top: black solid 3px;
+    }
+    main {
+      padding: 10px 70px;
+      display: flex;
+      flex-direction: column;
+      row-gap: 15px;
+    }
+    main p {
+      line-height: 25px;
+      font-size: 18px;
+      font-style: italic;
+      text-align: justify;
+      color: #808000;
+    }
+    .signup-form input {
+      font-size: 16px;
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 0;
+      background-color: transparent;
+      border-bottom: 2px solid #ccc;
+    }
+    .signup-form button {
+      background-color: #666600;
+      color: white;
+      padding: 10px 15px;
+      margin-top: 30px;
+      border: none;
+      cursor: pointer;
+    }
+    .section h2 {
+      margin-top: 30px;
+      margin-left: 10px;
+      color: rgb(205, 195, 50);
+      padding: 10px;
+    }
+    .section-duoi {
+      width: 55%;
+      margin-left: 70px;
+      font-size: 20px;
+    }
+    .section-duoi p {
+      margin-left: 0px;
+      margin-top: 20px;
+      float: left;
+    }
+    .aside {
+      width: 25%;
+      height: 0 auto;
+      margin-top: -500px;
+      margin-right: 20px;
+    }
+    .menu {
+      margin-top: 30px;
+      border-radius: 20px 20px 0px 0px;
+      background-color: antiquewhite;
+    }
+    .menu h2 {
+      color: red;
+      padding-left: 20px;
+      margin-bottom: 30px;
+    }
+    .menu ul li {
+      margin-left: 30px;
+
+      list-style-type: square;
+      color: orangered;
+    }
+    .menu-duoi {
+      margin-top: 20px;
+    }
+    .menu-duoi img {
+      width: 100px;
+      height: 50px;
+      border: 1px solid rosybrown;
+      padding: 10px;
+      float: left;
+    }
+    .menu-duoi p {
+      text-align: justify;
+    }
+    .footer {
+      width: 100%;
+      background-image: url(../img/footer.png);
+      background-repeat: repeat-x;
+      color: #20201e;
+    }
+    .footer p {
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 10px;
+      margin-top: 200px;
+      text-align: center;
+      font-size: 20px;
+    }
+  </style>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <h1>AUTUMN TRAVEL COMPANY</h1>
+      </div>
+      <div class="nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Order</a></li>
+        </ul>
+      </div>
+      <div class="hinh">
+        <img
+          src="./img/Ảnh chụp màn hình 2024-09-27 222352.png"
+          alt=""
+          style="width: 960px"
+        />
+      </div>
+      <div class="section">
+        <main>
+          <h2>Sign up for membership benefits</h2>
+          <div class="section-duoi">
+            <p>
+              Our philisophical are transparency, respect, formality and
+              responsibility. Our stimulus is your enthusiasm. Our motto is your
+              satisfation.
+            </p>
+            <form class="signup-form">
+              <input type="text" placeholder="Username" required />
+              <input type="email" placeholder="E-mail" required />
+              <input type="password" placeholder="Password" required />
+              <input type="password" placeholder="Retype password" required />
+              <button type="submit">SIGN ME UP</button>
+            </form>
+          </div>
+        </main>
+      </div>
+      <div class="aside">
+        <div class="menu">
+          <h2>Links</h2>
+          <ul>
+            <li><a href="#"></a>Make your Own Tour</li>
+            <li><a href="#"></a>Maldives Tours</li>
+            <li><a href="#"></a>Nature & Adventure</li>
+            <li><a href="#"></a>Europe Tours</li>
+            <li><a href="#"></a>Rusia Tours</li>
+            <li><a href="#"></a>More Info</li>
+          </ul>
+        </div>
+        <div class="menu-duoi">
+          <h2>More info</h2>
+          <p>
+            <img src="./img/hinh bai 3.png" alt="" width="80px" />Our purpose is
+            the client who gives us the opportunity to serve and make known the
+            reality around the world.
+          </p>
+        </div>
+      </div>
+      <div class="footer">
+        <p>
+          &copy; 2017 Software Engineering Department | Test Date 16 Sep 2017
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

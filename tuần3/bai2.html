@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bai3</title>
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px auto;
+      }
+
+      .wrapper {
+        width: 960px;
+
+        background-color: rgb(227, 226, 224);
+        border: black solid 2px;
+      }
+      .header {
+        background-color: #294e79;
+        position: relative;
+      }
+      .header h1 {
+        position: absolute;
+        top: 10px;
+        left: 150px;
+        color: white;
+      }
+      .header h5 {
+        position: absolute;
+        top: 40px;
+        left: 150px;
+        color: white;
+      }
+      .header #from1 {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+      }
+      .nav {
+        position: absolute;
+        bottom: 2px;
+        right: 20px;
+      }
+      .menu li {
+        list-style-type: none;
+        background-color: #78ace7;
+        display: inline-table;
+        height: 50px;
+        line-height: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      .menu li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bolder;
+      }
+      .menu li:hover {
+        color: darksalmon;
+      }
+      .menu li:hover > a {
+        font-style: italic;
+        color: crimson;
+      }
+      .container {
+        position: relative;
+      }
+
+      .section-ngang {
+        position: absolute;
+        left: 10px;
+        top: 30px;
+      }
+      .section-trai {
+        position: absolute;
+        left: 10px;
+        top: 80px;
+        width: 40%;
+      }
+      .section-trai h5 {
+        text-shadow: 0px 5px 5px #24bf2e;
+        color: red;
+      }
+      .section-trai #from2 {
+        position: absolute;
+        top: 30px;
+      }
+      .section-phai {
+        position: absolute;
+        top: 80px;
+        left: 450px;
+      }
+      .section-phai-1 {
+        margin-top: 10px;
+      }
+      .section-phai-1 li {
+        list-style-type: none;
+      }
+      .section-phai-1 li a {
+        text-decoration: none;
+        color: rgb(85, 82, 82);
+      }
+      .section-phai-2 {
+        margin-top: 30px;
+      }
+      .section-phai-2 li {
+        list-style-type: none;
+      }
+      .section-phai-2 li a {
+        text-decoration: none;
+        color: rgb(85, 82, 82);
+      }
+      .section-phai-3 {
+        margin-top: 20px;
+      }
+      .section-phai-3 li {
+        list-style-type: none;
+      }
+      .section-phai-3 li a {
+        text-decoration: none;
+        color: rgb(85, 82, 82);
+      }
+      .aside {
+        position: relative;
+      }
+      .aside-ngang {
+        position: absolute;
+        right: 30px;
+        top: 40px;
+      }
+
+      .aside-duoi {
+        position: absolute;
+        top: 100px;
+        left: 720px;
+        padding: 20px;
+        text-align: justify;
+        color: rgb(85, 82, 82);
+      }
+      .link {
+        position: absolute;
+        top: 350px;
+        left: 850px;
+      }
+      .link a {
+        text-decoration: none;
+        color: blue;
+      }
+      .footer {
+        margin-top: 500px;
+
+        background-color: rgb(72, 29, 247);
+        padding: 10px;
+        color: azure;
+      }
+      .content-form {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+      }
+      form#frm {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px 0;
+      }
+      .content-form .main-form {
+        width: 50%;
+        padding-right: calc(13px / 2);
+        padding-left: calc(13px / 2);
+        margin-bottom: 13px;
+        margin: 0;
+      }
+      .content-form .main-form-tex {
+        width: 100%;
+        padding-right: calc(13px / 2);
+        padding-left: calc(13px / 2);
+        margin-bottom: 13px;
+      }
+      textarea#message {
+        width: 100%;
+      }
+      .btn {
+        padding: 0;
+        margin: 0;
+        padding-left: calc(13px / 2);
+      }
+      .content-form input,
+      .content-form textarea,
+      .content-form button {
+        border-radius: 0;
+        border: 1px solid #dae0e7;
+        background-color: azure;
+      }
+      .content-form label,
+      .content-form button {
+        color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <img src="./img/flower.png" alt="" height="150" />
+        <h1>FlowerBox 360</h1>
+        <h5>...to get your daily close of luxury roses!</h5>
+        <form action="" id="from1">
+          <input type="text" name="" id="" placeholder="Nhap vao.." />
+          <button type="submit">GO</button>
+        </form>
+        <div class="nav">
+          <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Promotion</a></li>
+            <li><a href="#">Gift Baskets</a></li>
+            <li><a href="#">Flowers Services</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container">
+        <div class="section">
+          <div class="section-ngang">
+            <h3>Why Not Contact Us Today!</h3>
+            <p>
+              ..........................................................................................................................................................................
+            </p>
+          </div>
+          <div class="section-trai">
+            <h5>
+              For FlowerBox 360 shopers, that means not only can you send your
+              friends and loves ones the highest quality flowers found on
+              online, but thatt you can do so at a great value.
+            </h5>
+            <div class="content-form">
+              <form action="" method="get" id="frm">
+                <div class="main-form">
+                  <label for="name">Name</label>
+                  <input type="text" name="name" id="name" />
+                </div>
+                <div class="main-form">
+                  <label for="email">Email</label>
+                  <input type="email" name="email" id="email" />
+                </div>
+                <div class="main-form">
+                  <label for="tel">Telephone</label>
+                  <input type="tel" name="tel" id="tel" />
+                </div>
+                <div class="main-form">
+                  <label for="subject">Subject</label>
+                  <input type="text" name="text" id="text" />
+                </div>
+                <div class="main-form-tex">
+                  <label for="text">Message</label>
+                  <textarea name="message" id="message" rows="4"></textarea>
+                </div>
+
+                <div class="btn">
+                  <button type="submit">Submit</button>
+                  <button type="reset">Reset</button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="section-phai">
+            <h3>FlowerBox 360 Info!</h3>
+            <p>...............................................</p>
+            <div class="section-phai-1">
+              <ul>
+                <li><a href="#">Openationg Hours:</a></li>
+                <li><a href="#">Monday-Friday:9:000am-5:00pm</a></li>
+                <li><a href="#">Saturday:9:00am-1.00pm.</a></li>
+                <li><a href="#">Sunday:CLosed (No Deliveries)</a></li>
+                <li><a href="#">ORDER ONLINE 24/7</a></li>
+              </ul>
+            </div>
+            <div class="section-phai-2">
+              <ul>
+                <li><a href="#">Software Engineering Dept.</a></li>
+                <li><a href="#">Information Technology Faculty</a></li>
+                <li><a href="#">First Floor, H Building</a></li>
+              </ul>
+            </div>
+            <div class="section-phai-3">
+              <ul>
+                <li><a href="#">12 Nguyen Van Bao, Ward 4,</a></li>
+                <li><a href="#">Go Vap District</a></li>
+                <li><a href="#">Ho Chi Minh City</a></li>
+                <li><a href="#">Tel: 0283.8940 390</a></li>
+                <li><a href="#">Fax: 0283.9940 954</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="aside">
+          <div class="aside-ngang">
+            <h3>Discounts & Specials</h3>
+            <p>.................................................</p>
+          </div>
+          <div class="aside-duoi">
+            <img src="./img/rose.png" alt="" width="200px" />
+            <h5>
+              FlowerBox 360 offers many great discounts throught the year, from
+              coupons and coupon codes, to promo codes and other savings. We
+              also offer military flower discounts to our wonderfull troppps!
+            </h5>
+          </div>
+          <div class="link">
+            <a href="">Read More >></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <p>12 Nguyen Van Bao, Ward 4, Go Vap District, Ho Chi Minh City</p>
+      </div>
+    </div>
+  </body>
+</html>
